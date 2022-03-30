@@ -13,6 +13,16 @@
 body{
     font-family: var(--fonte);
     color: #222222;
+    position: relative;
+}
+header{
+    position: sticky;
+    top: -1px;
+}
+@media (max-width:600px){
+    header{
+        position: absolute;
+    }
 }
 img{
     display: block;
@@ -120,7 +130,7 @@ img{
     align-items: flex-end;
 }
 .produtos-item{
-    flex: 1 1 175px;
+    flex: 1 1 251px;
     margin: 10px auto;
     max-width: 251px;
 }
