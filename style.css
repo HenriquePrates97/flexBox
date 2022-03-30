@@ -13,11 +13,6 @@
 body{
     font-family: var(--fonte);
     color: #222222;
-    position: relative;
-}
-header{
-    position: sticky;
-    top: -1px;
 }
 img{
     display: block;
